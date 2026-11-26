@@ -3,14 +3,14 @@
 // liquidated. It has to sound like a real fortune and land as a joke on
 // the loss — a laugh rather than a tear. The market took everything but
 // the sense of humor. Spend it wisely.
-// Gate: 1-160 chars and at most 20 words (19 words here).
+// Gate: 1-160 chars and at most 20 words (15 words here).
 // makefun anchor 6480748f20b4de423332e07b58d74384b790db0e round 34272782
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const FORTUNE =
-  "Lucky you: the market took everything but your sense of humor. Spend it wisely — it's all that's left.";
+  "Fortune: your lucky numbers were your stop-loss, and you spent them all on one candle.";
 
 const fortune = FORTUNE.trim();
 const wordCount = fortune.split(/\s+/).length;
